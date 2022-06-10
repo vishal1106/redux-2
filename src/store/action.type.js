@@ -1,0 +1,11 @@
+export const COUNTER_INCREMENT ="counter/increment"
+export const COUNTER_DECREMENT ="counter/decrement"
+
+export const  ADD_TODO="addtodo"
+export const COMPLETEDTODO="completedtodo"
+export const UPDATEDTODO="updatedtodo"
+export const REMOVETODO="removetodo"
+export const GET_TODO_SUCCESS="gettodo/success"
+export const GET_TODO_ERROR="gettodo/error"
+export const GET_TODO_LOADING="gettodo/loading"
+export const GET_TODO="gettodo"

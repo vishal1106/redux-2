@@ -11,7 +11,7 @@ export const counterDe=()=>{
     return{ type:COUNTER_DECREMENT}}
 
 export const getTodos=(payload)=>({
-    type:ADD_TODO,payload
+    type:GET_TODO,payload
 }
 
 )
@@ -20,7 +20,7 @@ export const getTodos=(payload)=>({
 
 
 export  const todoapp=(payload)=>{
- return{type:GET_TODO,payload}
+ return{type:ADD_TODO,payload}
 }
 export const todocompleted=(id)=>{
     return{type:COMPLETEDTODO, payload : id}}
